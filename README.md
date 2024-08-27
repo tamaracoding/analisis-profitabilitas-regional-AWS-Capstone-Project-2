@@ -41,6 +41,30 @@ Analisa data ini akan menjawab pertanyaan-pertanyaan penelitian bisnis berikut i
 2.    Jika wilayah bisnis kritis sudah diidentifikasi, maka faktor-faktor apa saja kah yang mempengaruhi rendahnya profit margin di wilayah tersebut?
 3.    Apakah terdapat produk-produk tertentu yang memiliki profit margin tinggi di satu wilayah, tetapi rendah di wilayah lainnya?
 
+### Data yang Dianalisa untuk Menjawab Pertanyaan Penelitian Bisnis
+
+| **Columns Name** | **Column Description**                                    |
+|------------------|-----------------------------------------------------------|
+| **Row ID**       | A unique identifier for each transaction.                 |
+| **Order ID**     | A unique identifier for each order.                       |
+| **Order Date**   | The date when the order was placed.                       |
+| **Date Key**     | A numerical representation of the order date (YYYYMMDD).  |
+| **Contact Name** | The name of the person who placed the order.              |
+| **Country**      | The country where the order was placed.                   |
+| **City**         | The city where the order was placed.                      |
+| **Region**       | The region where the order was placed.                    |
+| **Subregion**    | The subregion where the order was placed.                 |
+| **Customer**     | The name of the company that placed the order.            |
+| **Customer ID**  | A unique identifier for each customer.                    |
+| **Industry**     | The industry the customer belongs to.                     |
+| **Segment**      | The customer segment (SMB, Strategic, Enterprise, etc.).  |
+| **Product**      | The product was ordered.                                  |
+| **License**      | The license key for the product.                          |
+| **Sales**        | The total sales amount for the transaction.               |
+| **Quantity**     | The total number of items in the transaction.             |
+| **Discount**     | The discount applied to the transaction.                  |
+| **Profit**       | The profit from the transaction.                          |
+
 ### Kesimpulan:
 - Dari analisis yang dilakukan, `wilayah bisnis APJ terbukti menjadi wilayah yang paling kritis dengan profit margin rata-rata yang negatif sebesar -15%`. Meskipun median profit margin menunjukkan nilai positif +0.12, yang artinya 50% transaksi memiliki profit margin di atas 0.12, ada `banyak nilai negatif yang sangat besar hingga menurunkan rata-rata secara signifikan` menjadi -0.15 atau -15%.
 
